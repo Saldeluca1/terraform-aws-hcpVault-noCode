@@ -45,3 +45,11 @@ variable "vault_namespace" {
     description = "namespace to use"
     default = "/admin"
 }
+
+variable "login_username" {
+    description = "vault auth username"
+}
+
+variable "login_password" {
+    description = "vault auth password"
+}
